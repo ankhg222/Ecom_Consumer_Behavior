@@ -1,0 +1,48 @@
+2026-07-15 23:52:10,165 [INFO] ==================================================
+2026-07-15 23:52:10,165 [INFO] ETL Pipeline START
+2026-07-15 23:52:10,165 [INFO] Extracting from: e:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\1_data_engineering\..\data\raw\Ecommerce_Consumer_Behavior_Analysis_Data.csv
+2026-07-15 23:52:10,179 [INFO] Extracted 1000 rows, 28 columns
+2026-07-15 23:52:10,179 [INFO] Starting transform...
+2026-07-15 23:52:10,269 [INFO] Purchase_Amount outliers (1%-99%): 20 rows (kept)
+2026-07-15 23:52:10,286 [INFO] Saved processed CSV: e:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\1_data_engineering\..\data\processed\ecommerce_clean.csv
+2026-07-15 23:52:10,315 [INFO] Loaded 1000 rows to SQLite: e:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\1_data_engineering\..\data\processed\ecommerce.db [table: orders]
+2026-07-15 23:52:10,315 [INFO] ETL Pipeline DONE in 0.2s
+2026-07-15 23:52:10,315 [INFO] ==================================================
+2026-07-16 00:01:48,922 [INFO] ==================================================
+2026-07-16 00:01:48,922 [INFO] ETL Pipeline START
+2026-07-16 00:01:48,922 [INFO] Extracting from: E:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\1_data_engineering\..\data\raw\Ecommerce_Consumer_Behavior_Analysis_Data.csv
+2026-07-16 00:01:48,929 [INFO] Extracted 1000 rows, 28 columns
+2026-07-16 00:01:48,929 [INFO] Starting transform...
+2026-07-16 00:01:48,950 [INFO] Missing values: 503 -> 0
+2026-07-16 00:01:48,952 [INFO] Purchase_Amount outliers (1%-99%): 20 rows (kept)
+2026-07-16 00:01:48,952 [INFO] Transform done: 1000 -> 1000 rows
+2026-07-16 00:01:48,962 [INFO] Saved processed CSV: E:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\1_data_engineering\..\data\processed\ecommerce_clean.csv
+2026-07-16 00:01:48,983 [INFO] Loaded 1000 rows to SQLite: E:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\1_data_engineering\..\data\processed\ecommerce.db [table: orders]
+2026-07-16 00:01:48,983 [INFO] ETL Pipeline DONE in 0.1s
+2026-07-16 00:01:48,983 [INFO] ==================================================
+2026-07-16 00:16:47,989 [INFO] ==================================================
+2026-07-16 00:16:47,989 [INFO] ETL Pipeline START
+2026-07-16 00:16:47,990 [INFO] Extracting from: E:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\Data\Ecommerce_Consumer_Behavior_Analysis_Data.csv
+2026-07-16 00:16:47,997 [INFO] Extracted 1000 rows, 28 columns
+2026-07-16 00:16:47,997 [INFO] Starting transform...
+2026-07-16 00:16:48,018 [INFO] Missing values: 503 -> 0
+2026-07-16 00:16:48,020 [INFO] Purchase_Amount outliers (1%-99%): 20 rows (kept)
+2026-07-16 00:16:48,020 [INFO] Transform done: 1000 -> 1000 rows
+2026-07-16 00:16:48,031 [INFO] Saved processed CSV: E:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\Data\processed\ecommerce_clean.csv
+2026-07-16 00:16:48,051 [INFO] Loaded 1000 rows to SQLite: E:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\Data\processed\ecommerce.db [table: orders]
+2026-07-16 00:16:48,053 [INFO] Created 3 SQL views in DB
+2026-07-16 00:16:48,053 [INFO] ETL Pipeline DONE in 0.1s
+2026-07-16 00:16:48,053 [INFO] ==================================================
+2026-07-16 17:03:04,554 [INFO] ==================================================
+2026-07-16 17:03:04,554 [INFO] ETL Pipeline START
+2026-07-16 17:03:04,554 [INFO] Extracting from: E:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\Data\Ecommerce_Consumer_Behavior_Analysis_Data.csv
+2026-07-16 17:03:04,565 [INFO] Extracted 1000 rows, 28 columns
+2026-07-16 17:03:04,565 [INFO] Starting transform...
+2026-07-16 17:03:04,590 [INFO] Missing values: 503 -> 0
+2026-07-16 17:03:04,591 [INFO] Purchase_Amount outliers (1%-99%): 20 rows (kept)
+2026-07-16 17:03:04,592 [INFO] Transform done: 1000 -> 1000 rows
+2026-07-16 17:03:04,602 [INFO] Saved processed CSV: E:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\Data\processed\ecommerce_clean.csv
+2026-07-16 17:03:04,622 [INFO] Loaded 1000 rows to SQLite: E:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\Data\processed\ecommerce.db [table: orders]
+2026-07-16 17:03:04,633 [INFO] Created 3 SQL views in DB
+2026-07-16 17:03:04,633 [INFO] ETL Pipeline DONE in 0.1s
+2026-07-16 17:03:04,633 [INFO] ==================================================

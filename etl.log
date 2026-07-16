@@ -1,0 +1,26 @@
+2026-07-16 00:28:38,583 [INFO] ==================================================
+2026-07-16 00:28:38,583 [INFO] ETL Pipeline START
+2026-07-16 00:28:38,583 [INFO] Extracting from: e:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\Data\Ecommerce_Consumer_Behavior_Analysis_Data.csv
+2026-07-16 00:28:38,626 [INFO] Extracted 1000 rows, 28 columns
+2026-07-16 00:28:38,626 [INFO] Starting transform...
+2026-07-16 00:28:38,665 [INFO] Missing values: 503 -> 0
+2026-07-16 00:28:38,667 [INFO] Purchase_Amount outliers (1%-99%): 20 rows (kept)
+2026-07-16 00:28:38,667 [INFO] Transform done: 1000 -> 1000 rows
+2026-07-16 00:28:38,690 [INFO] Saved processed CSV: e:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\Data\processed\ecommerce_clean.csv
+2026-07-16 00:28:38,713 [INFO] Loaded 1000 rows to SQLite: e:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\Data\processed\ecommerce.db [table: orders]
+2026-07-16 00:28:38,716 [INFO] Created 3 SQL views in DB
+2026-07-16 00:28:38,716 [INFO] ETL Pipeline DONE in 0.1s
+2026-07-16 00:28:38,716 [INFO] ==================================================
+2026-07-16 00:43:55,338 [INFO] ==================================================
+2026-07-16 00:43:55,338 [INFO] ETL Pipeline START
+2026-07-16 00:43:55,338 [INFO] Extracting from: e:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\Data\Ecommerce_Consumer_Behavior_Analysis_Data.csv
+2026-07-16 00:43:55,349 [INFO] Extracted 1000 rows, 28 columns
+2026-07-16 00:43:55,350 [INFO] Starting transform...
+2026-07-16 00:43:55,373 [INFO] Missing values: 503 -> 0
+2026-07-16 00:43:55,376 [INFO] Purchase_Amount outliers (1%-99%): 20 rows (kept)
+2026-07-16 00:43:55,376 [INFO] Transform done: 1000 -> 1000 rows
+2026-07-16 00:43:55,387 [INFO] Saved processed CSV: e:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\Data\processed\ecommerce_clean.csv
+2026-07-16 00:43:55,406 [INFO] Loaded 1000 rows to SQLite: e:\PhanTichDuLieu\PhanTichDuLieu\23110236_NguyenPhuocKhang_Nhom_8\Data\processed\ecommerce.db [table: orders]
+2026-07-16 00:43:55,408 [INFO] Created 3 SQL views in DB
+2026-07-16 00:43:55,409 [INFO] ETL Pipeline DONE in 0.1s
+2026-07-16 00:43:55,409 [INFO] ==================================================
